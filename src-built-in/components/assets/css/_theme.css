@@ -167,7 +167,7 @@
     --content-font-weight: var(--primary-font-weight);
     
     --content-nav-header-font-size: 21px;
-    --content-nav-header-font-weight: var(--secondary-font-weight);
+    --content-nav-header-font-weight: var(--primary-font-weight);
     --content-nav-header-background-color: var(--slate);
     --content-nav-background-color: var(--tertiary-background-color);
     --content-nav-highlighter: var(--slate3);
