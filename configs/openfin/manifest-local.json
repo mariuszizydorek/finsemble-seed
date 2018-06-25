@@ -21,7 +21,7 @@
         "alwaysOnTop": false
     },
     "runtime": {
-        "arguments": "--noerrdialogs  --v=4 --no-sandbox  --enable-crash-reporting --framestrategy=frames --winhttp-proxy-resolver",
+        "arguments": "--noerrdialogs --v=4 --no-sandbox --enable-crash-reporting --framestrategy=frames --winhttp-proxy-resolver --enable-overlay-scrollbar",
         "version": "8.56.28.36",
         "//": "Add these arguments when diagnosing issues",
         "--diagnostics": "Adding this to the runtimeArguments activates verbose logging and crash reporting.",
