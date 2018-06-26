@@ -46,7 +46,7 @@ label {
 }
 
 input {
-	width: 90%
+	width: 90%;
 }
 
 textarea {
@@ -57,9 +57,10 @@ textarea {
 
 #received {
 	width: 90%;
-	height: 10em;
+	height: 25vh;
 	overflow: scroll;
 	border: gray solid 1px;
+	overflow: auto;
 }
 
 .title {
