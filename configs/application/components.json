@@ -448,6 +448,52 @@
                     }
                 }
             }
+        },
+        "earlyb": {
+            "window": {
+                "url": "https://beta-app.marketearlybird.com",
+                "icon": "https://beta-app.marketearlybird.com/img/Earlybird_icon_up.png",
+                "frame": false,
+                "resizable": true,
+                "autoShow": true,
+                "top": "center",
+                "left": "center",
+                "width": 500,
+                "height": 800
+            },
+            "component": {
+                "inject": false,
+                "spawnOnStartup": false
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": {
+                            "component": "windowTitleBar",
+                            "bumpElements": {
+                                "fixed": false,
+                                "absolute": false,
+                                "bumpBy": 0
+                            },
+                            "bodyMarginTop": false,
+                            "forceHeaderHeight": false
+                        },
+                        "persistWindowState": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "earlyb"
+                    }
+                }
+            }
         }
 	}
 }
