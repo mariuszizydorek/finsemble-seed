@@ -8,6 +8,14 @@
             "name": "yellowfinService",
             "html": "/services/yellowfin/yellowfin.html",
             "file": "/services/yellowfin/yellowfinService.js"
+        },
+        "ipushpullService": {
+            "useWindow": true,
+            "active": true,
+            "name": "ipushpullService",
+            "file": "ipushpull/ipushpullService.js",
+            "visible": false,
+            "html": "/services/ipushpull/ipushpull.html"
         }
     }
 }
